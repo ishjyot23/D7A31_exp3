@@ -1,12 +1,13 @@
 import './App.css';
 import React from 'react';
-import TodoList from './components/TodoList';
+import Greeting from './Greeting'; 
+import Counter from './Counter';   
 
 function App() {
     return (
         <div>
-            <h1>My To-Do App</h1>
-            <TodoList />
+            <Greeting name="Ishjyot" />
+            <Counter />
         </div>
     );
 }
